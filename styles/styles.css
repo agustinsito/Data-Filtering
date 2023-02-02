@@ -1,0 +1,23 @@
+.text-center{
+  text-align: center;
+  margin-top: 50px;
+}
+.textLabel{
+    font-style: italic;
+    font-size: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.bgUsers{
+    background: rgb(26, 36, 44);
+    padding-left: 10px;
+}
+
+.bgUsers:hover{
+    background: rgb(28, 45, 59);
+    cursor: pointer;
+    border-radius: 25px;
+}
