@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 })
 
 async function loadUsers (){
-    const response = await fetch('https://fakerapi.it/api/v1/users?_quantity=1000')
+    const response = await fetch('https://fakerapi.it/api/v1/users?_quantity=80')
     return await response.json()
 }
 
